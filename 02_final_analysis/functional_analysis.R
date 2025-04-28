@@ -27,6 +27,8 @@ source("R/utils.R")
 
 ## Get Tenerife municipalities
 
+tenerife_muni_sf <- get_tenerife_muni()
+
 
 ## Convert to list, where each row is an element
 
