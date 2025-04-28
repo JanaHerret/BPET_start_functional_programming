@@ -46,7 +46,6 @@ sentinal_list <- map(
 )
 toc()
 
-
 # 3. Prepare data ---------------------------------------------------------
 
 ## Calculate NDVI
