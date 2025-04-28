@@ -50,6 +50,14 @@ toc()
 # 3. Prepare data ---------------------------------------------------------
 
 ## Calculate NDVI
+tic()
+ndvi_list <- map(
+    sentinal_list, 
+    calculate_ndvi, 
+    .progress = TRUE
+)
+toc()
+
 
 
 # 4. Maps -----------------------------------------------------------------
